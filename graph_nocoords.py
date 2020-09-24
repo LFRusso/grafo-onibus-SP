@@ -1,8 +1,10 @@
+# 
+#   Plot do grafo sem coordenadas + cálculo da centralidade
+#
 import numpy as np
 import pandas as pd
 import networkx as nx
 import matplotlib.pyplot as plt
-import seaborn as sns
 from networkx import centrality
 
 # Lendo e formatando vértices
